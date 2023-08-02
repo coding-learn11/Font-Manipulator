@@ -1,0 +1,35 @@
+body {
+    background-color: #fafafb;
+}
+
+#heading {
+    background-color: #efb7ba;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #e47d83;
+}
+
+#copyright_footer {
+position: fixed;
+margin-bottom: 0;
+background-color: #efb7ba;
+width: 100%;
+bottom: 0;
+height: 30px;
+padding: 8px;
+line-height: 1.25;
+text-align: center;
+}
+
+#note {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+canvas {
+    border: 3px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #89a1e4;
+
+}
