@@ -1,10 +1,10 @@
 function setup() {
     video = createCapture(VIDEO);
     video.size(550, 500);
-    video.position(50, 80)
+    video.position(50, 70)
 
     canvas = createCanvas(500, 390);
-    canvas.position(600, 80);
+    canvas.position(625, 110);
 
     poseNet = ml5.poseNet(video, modelLoaded);
     poseNet.on('pose', gotPoses);
