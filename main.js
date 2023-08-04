@@ -5,10 +5,10 @@ difference = 0;
 function setup() {
     video = createCapture(VIDEO);
     video.size(550, 500);
-    video.position(120, 70)
+    video.position(100, 65)
 
     canvas = createCanvas(500, 420);
-    canvas.position(705, 90);
+    canvas.position(695, 95);
 
     poseNet = ml5.poseNet(video, modelLoaded);
     poseNet.on('pose', gotPoses);
